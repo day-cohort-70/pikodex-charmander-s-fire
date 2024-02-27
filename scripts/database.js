@@ -1,4 +1,5 @@
-const database = [
+const database = {
+    pikomans: [
     {
         id: 1,
         name: 'Crouchy',
@@ -71,4 +72,10 @@ const database = [
         abilities: 'Master of Pranks',
         weakness: 'Close Talkers'
     }
-];
+]
+};
+
+export const getPikoman = () => {
+    return database.pikomans.map(pikomans => ({...pikomans}))
+}
+
