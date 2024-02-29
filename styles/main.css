@@ -11,19 +11,22 @@
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
-}
+    flex-basis: 20%
+}  
 
 .piko-card {
     flex-basis: 25%;
     margin: 3em;
+    border: 1px dotted red;
 }
 
-.piko-img {
-    width: 100%;
+ .piko-img {
+    max-width: 5em;
     border-radius: 1em;
-}
+    
+} 
 
-.piko-info {
+/* .piko-info {
     padding-left: 1.25rem;
 }
 
@@ -47,4 +50,4 @@
 
 .piko-weakness {
 
-}
+} */ */
